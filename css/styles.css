@@ -88,6 +88,18 @@ img {
     margin-top: -3px;
 }
 
+@media (max-width: 428px) {
+    img {
+        width: 200px;
+        height: 200px;
+        margin-left: -46px;
+        margin-top: 2px;
+
+    }
+
+
+}
+
 /* MENU */
 
 /* body {
@@ -192,6 +204,43 @@ transform-origin: 50% 50%;
 
 }
 
+@media (max-width: 428px) {
+    .menu-item {
+        left: 134px!important;
+        width: 60px!important;
+        height: 60px!important;
+    }
+    .menu-item a{
+        line-height: 62px !important;
+    }
+
+    .menu-toggler:checked~ul .menu-item:nth-child(1) {
+        transform: rotate(0deg) translate(-36px);
+    }
+
+    .menu-toggler:checked~ul .menu-item:nth-child(2) {
+        transform: rotate(60deg) translateX(-70px);
+    }
+
+    .menu-toggler:checked~ul .menu-item:nth-child(3) {
+        transform: rotate(120deg) translateX(-70px);
+    }
+
+    .menu-toggler:checked~ul .menu-item:nth-child(4) {
+        transform: rotate(180deg) translateX(-36px);
+    }
+
+    .menu-toggler:checked~ul .menu-item:nth-child(5) {
+        transform: rotate(240deg) translateX(-70px);
+    }
+
+    .menu-toggler:checked~ul .menu-item:nth-child(6) {
+        transform: rotate(300deg) translateX(-70px);
+    }
+
+
+}
+
 /* .menu-toggler+label:before,
 .menu-toggler+label:after {
     width: 40px;
@@ -242,9 +291,9 @@ transform-origin: 50% 50%;
 .menu-item {
     position: absolute;
     display: block;
-    top: 0;
+    top: -182px;
     bottom: 0;
-    left: 0;
+    left: 200px;
     right: 0;
     margin: auto;
     width: 80px;
@@ -258,8 +307,8 @@ transform-origin: 50% 50%;
     width: inherit;
     height: inherit;
     line-height: 80px;
-    color: rgba(255, 255, 255, 0.7);
-    background: rgba(230, 230, 250, 0.7);
+    color: var(--blanco);
+    background: var(--playerShadow);
     border-radius: 50%;
     text-align: center;
     text-decoration: none;
@@ -296,7 +345,7 @@ transform-origin: 50% 50%;
 
 .song-name {
     margin: 0;
-    margin-bottom: 8px;
+    margin-bottom: -6px;
     text-align: center;
 }
 
@@ -307,13 +356,13 @@ transform-origin: 50% 50%;
 }
 
 .player-progress {
-    margin-top: 36px;
+    margin-top: -20px;
 }
 
 .player-progress .progress-values {
     display: flex;
     justify-content: space-between;
-    color: #a5aaaf;
+    color: var(--blanco);
     font-size: 14px;
 }
 
@@ -455,7 +504,9 @@ transform-origin: 50% 50%;
     .player {
         width: 100%;
         box-shadow: none;
-        padding: 24px;
+        padding: 5px;
+        height: 167px;
+        margin-top: 5px;
     }
 
     .player-buttons .btn {
