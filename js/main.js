@@ -128,3 +128,12 @@ const ended = () => {
 window.onload = () => {
   updatePlayer();
 };
+
+function hideShow() {
+  var x = document.getElementById("hideme");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
