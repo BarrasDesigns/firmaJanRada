@@ -299,7 +299,7 @@ transform-origin: 50% 50%;
     }
 
     .menu-item {
-        top: -79% !important;
+        top: -66% !important;
         left: 105px !important;
         width: 50px !important;
         height: 50px !important;
@@ -387,7 +387,7 @@ transform-origin: 50% 50%;
 .menu-item {
     position: absolute;
     display: block;
-    top: -64%;
+    top: -38%;
     bottom: 0;
     left: 200px;
     right: 0;
