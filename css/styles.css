@@ -304,7 +304,7 @@ transform-origin: 50% 50%;
     }
 
     .menu-item a {
-        line-height: 52px !important;
+        /* line-height: 52px !important; */
         font-size: 30px !important;
     }
 
@@ -394,7 +394,7 @@ transform-origin: 50% 50%;
     height: 80px;
     opacity: 0;
     transition: 0.5s;
-    z-index: 4000;
+    z-index: 50000;
 }
 
 .menu-item a {
