@@ -195,7 +195,7 @@ img {
 
 .menu-toggler {
     position: absolute;
-    display: none;
+    display: hidden;
     margin: auto;
     z-index: 10000;
     opacity: 0;
