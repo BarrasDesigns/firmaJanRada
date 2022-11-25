@@ -38,7 +38,7 @@ h1 {
 /* HEADER */
 
 .clickme {
-    display: none;
+    display: block;
 }
 
 /* SOUNDWAVE */
