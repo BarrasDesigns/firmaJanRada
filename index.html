@@ -51,14 +51,14 @@
                     <div class="logo">
                         <img src="./img/Logo1_Pintado.png" alt="logo">
                     </div>
-                    <div id="hideme" class="clickme">
+                    <div id="hideme" class="clickme" onclick="show()">
                         <img src="./img/CLICKME.png" alt="clickme">
                     </div>
                 </div>
                 <div class="cont__menu">
 
                     <nav class="menu">
-                        <input id="showme" checked="checked" class="menu-toggler" type="checkbox" onclick="hideShow()">
+                        <input id="showme" checked="checked" class="menu-toggler" type="checkbox" onclick="hide()">
                         <label for="menu-toggler"></label>
                         <ul>
                             <li class="menu-item">
@@ -283,19 +283,22 @@
             updatePlayer();
         };
 
-        function hideShow() {
+        function hide() {
             var x = document.getElementById("hideme");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
                 x.style.display = "none";
             }
+        }
+        function show(){
             var y = document.getElementById("showme");
             if (y.style.display === "block") {
                 y.style.display = "none";
             } else {
                 y.style.display = "block";
             }
+            
         }
     </script>
 </body>
