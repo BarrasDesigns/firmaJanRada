@@ -58,7 +58,7 @@
                 <div class="cont__menu">
 
                     <nav class="menu">
-                        <input checked="checked" class="menu-toggler" type="checkbox" onclick="hideShow()">
+                        <input id="showme" checked="checked" class="menu-toggler" type="checkbox" onclick="hideShow()">
                         <label for="menu-toggler"></label>
                         <ul>
                             <li class="menu-item">
@@ -285,10 +285,16 @@
 
         function hideShow() {
             var x = document.getElementById("hideme");
-            if (x.style.display === "hidden") {
+            if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
-                x.style.display = "hidden";
+                x.style.display = "none";
+            }
+            var y = document.getElementById("showme");
+            if (y.style.display === "block") {
+                y.style.display = "none";
+            } else {
+                y.style.display = "block";
             }
         }
     </script>
