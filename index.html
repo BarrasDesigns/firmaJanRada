@@ -152,6 +152,23 @@
 
     <!-- <script src="./js/main.js"></script> -->
     <script>
+        function hide() {
+            var x = document.getElementById("hideme");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function show() {
+            var y = document.getElementById("showme");
+            if (y.style.display === "block") {
+                y.style.display = "none";
+            } else {
+                y.style.display = "block";
+            }
+
+        }
         const btnPlay = document.querySelector("#btn-play");
         const btnPlayIcon = document.querySelector("#btn-play-icon");
         const btnRepeat = document.querySelector("#btn-repeat");
@@ -283,23 +300,6 @@
             updatePlayer();
         };
 
-        function hide() {
-            var x = document.getElementById("hideme");
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
-            }
-        }
-        function show(){
-            var y = document.getElementById("showme");
-            if (y.style.display === "block") {
-                y.style.display = "none";
-            } else {
-                y.style.display = "block";
-            }
-            
-        }
     </script>
 </body>
 
