@@ -38,7 +38,7 @@ h1 {
 /* HEADER */
 
 .clickme {
-    display: block;
+    display: hidden;
 }
 
 /* SOUNDWAVE */
@@ -194,8 +194,8 @@ img {
 } */
 
 .menu-toggler {
+    /* display: hidden; */
     position: absolute;
-    display: hidden;
     margin: auto;
     z-index: 10000;
     opacity: 0;
