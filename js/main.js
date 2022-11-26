@@ -1,5 +1,5 @@
 function show() {
-    var y = document.getElementById("showme");
+    const y = document.getElementById("showme");
     if (y.style.display === "block") {
         y.style.display = "none";
     } else {
@@ -8,7 +8,7 @@ function show() {
 
 }
 function hide() {
-    var x = document.getElementById("hideme");
+    const x = document.getElementById("hideme");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
