@@ -1,4 +1,4 @@
-function show() {
+/* function show() {
     const y = document.getElementById("showme");
     if (y.style.display === "block") {
         y.style.display = "none";
@@ -6,7 +6,7 @@ function show() {
         y.style.display = "block";
     }
 
-}
+} */
 function hide() {
     const x = document.getElementById("hideme");
     if (x.style.display === "none") {
