@@ -209,7 +209,7 @@ img {
     height: 278px;
 }
 
-.menu-toggler:hover+label,
+/* .menu-toggler:hover+label,
 .menu-toggler:hover+label:before,
 .menu-toggler:hover+label:after
 {
@@ -234,7 +234,7 @@ transform-origin: 50% 50%;
 
 .menu-toggler:checked+label:after {
     transform: rotate(-45deg);
-}
+} */
 
 .menu-toggler:checked~ul .menu-item {
     opacity: 1;
