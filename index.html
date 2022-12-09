@@ -35,16 +35,17 @@
                     <div class="logo">
                         <img src="./img/Logo1_Pintado.png" alt="logo">
                     </div>
-                    <div id="hideme" class="clickme" onclick="show()">
+                    <div id="showme" class="clickme">
+                        <!-- onclick="show()" -->
                         <img src="./img/CLICKME.png" alt="clickme">
                     </div>
                 </div>
                 <div class="cont__menu">
 
-                    <nav class="menu">
-                        <input id="showme" checked="checked" class="menu-toggler" type="checkbox" onclick="hide()">
+                    <nav class="menu" >
+                        <input checked="checked" class="menu-toggler" type="checkbox" id="hideme" onclick="show()">
                         <label for="menu-toggler"></label>
-                        <ul>
+                        <ul >
                             <li class="menu-item">
                                 <a title="whatsapp" class="fa-brands fa-whatsapp" href="https://wa.me/528110633292"></a>
                             </li>

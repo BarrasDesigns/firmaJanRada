@@ -38,7 +38,8 @@ h1 {
 /* HEADER */
 
 .clickme {
-    display: hidden;
+    display: block;
+    cursor: pointer;
 }
 
 /* SOUNDWAVE */
@@ -194,7 +195,7 @@ img {
 } */
 
 .menu-toggler {
-    display: hidden;
+    display: block;
     position: absolute;
     margin: auto;
     z-index: 10000;
@@ -210,9 +211,9 @@ img {
 
 .menu-toggler:hover+label,
 .menu-toggler:hover+label:before,
-.menu-toggler:hover+label:after,
+.menu-toggler:hover+label:after
 {
-background: white;
+background: transparent;
 }
 
 .menu-toggler:checked+label {
@@ -220,7 +221,7 @@ background: white;
 }
 
 .menu-toggler:checked+label:before,
-.menu-toggler:checked+label:after,
+.menu-toggler:checked+label:after
 {
 top: 0;
 width: 40px;
@@ -275,7 +276,6 @@ transform-origin: 50% 50%;
     border-radius: 2.5px;
     transition: transform 0.5s top 0.5s;
     position: absolute;
-    display: block;
     top: -196px;
     bottom: 0;
     left: -306px;
